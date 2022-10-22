@@ -1,0 +1,75 @@
+.container {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  border: 2px solid rgb(49, 49, 133);
+  border-radius: 2rem;
+  margin: 5rem 15rem 5rem;
+}
+input button {
+  font-family: "Roboto", sans-serif;
+}
+
+.container h1 {
+  margin: 24px 0 24px;
+  font-family: "Open Sans", sans-serif;
+  color: #fff;
+  font-size: 3rem;
+  font-weight: bold;
+  line-height: 1.1;
+}
+.container input {
+  width: 75%;
+  padding: 16px;
+  background: #e6e6e6;
+  color: rgb(0, 0, 0);
+  border-radius: 30px;
+  border: none;
+  outline: none;
+  font-size: 16px;
+  border: 1px solid rgb(2, 18, 34);
+}
+
+.container button {
+  width: 50%;
+  padding: 6px;
+  font-weight: 700;
+  background: #3234c7;
+  border: none;
+  color: #ffffff;
+  border-radius: 5px;
+  margin: 3px 0 6;
+  cursor: pointer;
+  transition: filter 0.2 s;
+  border-radius: 1rem;
+  margin: 3px 0 6px;
+}
+
+.container button :hover {
+  filter: brightness(0.9);
+}
+
+.gradient {
+  background-image: linear-gradient(
+    to bottom,
+    rebeccapurple,
+    steelblue,
+    turquoise
+  );
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  color: black;
+}
+
+.cont {
+  border: 0.5px solid rgb(26, 205, 211);
+  border-radius: 10px;
+  font-family: "Roboto", sans-serif;
+  padding: 5px;
+  font-size: 16px;
+  color: #0d858d;
+  font-size: 1rem;
+  font-weight: bold;
+  margin: 10px 23rem 6px 0;
+}

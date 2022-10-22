@@ -1,0 +1,42 @@
+.done {
+  background: rgb(123, 240, 123);
+  height: 100%;
+  width: 75%;
+  border-radius: 5rem;
+  margin-bottom: 20px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 10px;
+  font-size: 18px;
+}
+.done .strong {
+  background: rgb(123, 240, 123);
+}
+.card {
+  height: 100%;
+  width: 75%;
+  background: #e6e6e6;
+  color: black;
+  border-radius: 20px;
+  margin-bottom: 20px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 18px;
+  font-size: 18px;
+  border-radius: 5rem;
+  border: 1px solid rgb(2, 18, 34);
+  margin: 7px 0 9px;
+}
+input[type="radio"] {
+  width: auto;
+  border: 1px solid blue;
+}
+
+input[type="radio"] :hover {
+  border: 1px solid rgb(19, 19, 168);
+}
+.strong {
+  background: #e6e6e6;
+}
